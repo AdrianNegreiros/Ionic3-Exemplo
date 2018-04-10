@@ -1,0 +1,8 @@
+page-test {
+    h1.test_title { /*Se for global esta configuração entra no scss do app e não nesta pagina.*/
+        color: aqua;
+        font-weight:  bold;
+    }
+    p.test_date {
+        color:  darkblue;
+    }}

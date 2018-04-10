@@ -1,0 +1,16 @@
+var objeto = {
+    idade: 27,
+    nome: "Derio Matheus",
+    tel: "99999999999999",
+    endereço: [
+        {
+            titulo: "Casa",
+            endereço: "Rua Teste 6"   
+        },
+        {
+            titulo: "trabalho",
+            endereco: "Rua teste7" 
+        }
+    ],
+    profissao: "Desenvolvedor/Analista"
+};

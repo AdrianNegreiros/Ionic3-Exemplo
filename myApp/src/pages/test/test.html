@@ -1,0 +1,58 @@
+<!--
+  Generated template for the TestPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Test</ion-title>
+    </ion-navbar>
+  </ion-header>
+
+<ion-content padding>
+
+   <!--Interporação-->
+  <ion-card>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/imgs/Derio7.jpg">  <!--Falta imagens-->
+      </ion-avatar>
+      <h1 class="test_title"> {{objeto_test.titulo}}</h1> <!--{{nome_usuario}}-->
+      <p class="test_date">{{objeto_test.data}}</p>
+    </ion-item>
+
+    <img src="assets/imgs/advance-card-bttf.png">
+
+    <ion-card-content>
+      <p>{{objeto_test.descricao}}</p>
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>{{objeto_test.qtd_likes}}</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="text"></ion-icon>
+          <div>{{objeto_test.qtd_comments}}</div>
+        </button>
+      </ion-col>
+      <ion-col center text-center>
+        <ion-note>
+            {{objeto_test.time_comments}}
+        </ion-note>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+
+</ion-content>
